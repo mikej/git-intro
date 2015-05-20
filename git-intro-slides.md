@@ -42,3 +42,11 @@
 ## Collaborating
 
 ![left](images/collaborating.png)
+
+---
+
+![75%](images/centralized_workflow.png)
+
+^ The next progression in source control systems was the introduction of using a centralised server. Here different people can make a copy of a project from a central server, make changes to the files in that project and submit the new versions of the files back to the server which will keep track of what's changed. When another person updates their copy from the server they will pick up the changes made by the first person.
+
+^ This is a big improvement  and indeed is the the way that many teams and companies manage the code for software projects today. However it does have some downsides: mainly a single point of failure and also it's not possible to keep track of changes when working somewhere without access to the central server
