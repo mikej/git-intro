@@ -54,3 +54,6 @@
 ^ This leads us to distributed version control. Here each computer has its own full copy of the repository including all of the history.
 
 ^ The distributed VCS provides a way to synchronise changes that have been made between copies of the repository.
+
+^ Some terminology: Clone, Push Pull
+
