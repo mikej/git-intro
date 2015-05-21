@@ -8,9 +8,7 @@
 
 ---
 
-# What/why source control?
-
-## Keeping track of changes
+# Keeping track of changes
  
 ![left](images/file-copies.png)
 
@@ -37,9 +35,7 @@
 
 ---
 
-# What/why source control?
-
-## Collaborating
+# Collaborating
 
 ![left](images/collaborating.png)
 
