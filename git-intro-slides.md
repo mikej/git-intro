@@ -57,3 +57,9 @@
 
 ^ Some terminology: Clone, Push Pull
 
+---
+
+![fit](images/lifecycle.png)
+
+^ Staging, commit
+
