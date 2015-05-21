@@ -63,3 +63,6 @@
 
 ^ Staging, commit
 
+---
+
+# Branching
