@@ -22,7 +22,9 @@
 
 ![75%](images/local.png)
 
-^ The earliest source control tools were designed to solve this problem by providing a way to store multiple versions of a file and to be enable comparing versions to see the differences and allowing an easy way to retrieve earlier versions.
+^ The first source control tools were designed to solve this problem by introducing a "repository" that can store multiple versions of files. The idea is that you work on your project and when you reach certain point you use a "commit" command to store the current state of each file as a new version in the repository. 
+
+^ You have a single working copy each file outside of the repository. The source control system then provides commands to let you retrieve previous versions of files and to compare different versions of each file. This works really well with source code which is just plain text.
 
 ---
 
