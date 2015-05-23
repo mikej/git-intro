@@ -47,7 +47,7 @@
 
 ![75%](images/centralized_workflow.png)
 
-^ The next progression in source control systems was the introduction of using a repository stored on a centralised server. Here multiple people can make a copy of a project from the central server, make changes to the files in that project and submit the new versions back to the server which will keep track of what's changed. The version control system provides a command for each person to update their working copy from the server, picking up the changes made by anyone else.
+^ The next progression in source control systems is the introduction of using a repository stored on a centralised server. This kind of source control system introduces some new features to let multiple people make a copy of a project from the server and to submit new versions back to the server which will keep track of what's changed. The version control system also provides a command for each person to update their working copy from the server, picking up the changes made by anyone else.
 
 ^ This is a big improvement  and indeed is the the way that many teams and companies manage the code for software projects today. However it does have some downsides: mainly a single point of failure and also it's not possible to keep track of changes when working somewhere without access to the central server. It can also involve doing some set up of a server before it can be used.
 
