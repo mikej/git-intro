@@ -16,7 +16,7 @@
 
 ^ You may also have found yourselves testing how far back the Undo command goes it your editor :)
 
-^ The trouble with this approach is that it's pretty error-prone and quite quickly becomes unwieldly and hard to maintain.
+^ The trouble with this approach is that it's pretty error-prone and quite quickly becomes unwieldy and hard to maintain.
 
 ---
 
