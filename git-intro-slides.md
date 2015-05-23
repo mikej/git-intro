@@ -71,6 +71,8 @@
 
 # Branching
 
+![inline](images/advance-master.png)
+
 ---
 
 # Credits
