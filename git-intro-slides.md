@@ -77,7 +77,7 @@
 
 # Credits
 
-All diagrams taken from the **Pro Git** book written by Scott Chacon and Ben Straub   published under the [Creative Commons Attribution Non Commercial Share Alike 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+All diagrams taken from the **Pro Git** book written by Scott Chacon and Ben Straub  published under the [Creative Commons Attribution Non Commercial Share Alike 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 Available at: [git-scm.com/book](https://git-scm.com/book/en/v2)
 
 -
