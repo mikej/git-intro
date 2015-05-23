@@ -55,11 +55,13 @@
 
 ![fit](images/distributed.png)
 
-^ This leads us to distributed version control. Here each computer has its own full copy of the repository including all of the history.
+^ This leads us to distributed version control which is the approach used by git. Here each computer has its own full copy of the repository including all of the history.
 
-^ The distributed VCS provides a way to synchronise changes that have been made between copies of the repository.
+^ There are several other version control systems that also more this way (such as Mercurial and Bazaar) but we're going to switch to speaking in terms of git now.
 
-^ Some terminology: Clone, Push Pull
+^ The distributed VCS provides a way to synchronise changes between copies of the repository.
+
+
 
 ---
 
