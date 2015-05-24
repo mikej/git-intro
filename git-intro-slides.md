@@ -2,7 +2,7 @@
 
 ^ Git is an example of what is known as a source control system, or version control system. This is going to be a brief tour of what a source control system and the problems that it solves. With some history of how we've arrived at git along the way.
 
-^ After that we'll be diving straight into a practical session.
+^ After that we'll be diving straight into a hands on session.
 
 ^ Before we start can I have a quick check of who has used git already? who has used a different source control too (Subversion etc.)
 
@@ -73,7 +73,17 @@
 
 ![fit](images/lifecycle.png)
 
-^ Staging, commit
+^ Just before we wrap up the slides and make a start on the hands on session I just want to cover a couple more things about git that will help the hands on session make more sense.
+
+^ The first is the different statuses that a file can have for a project that's in git:
+
+^ Untracked: a new file that hasn't been added to git - git doesn't know anything about this file yet
+
+^ Unmodified: the file matches the most recent commit
+
+^ Modified: the file has changes that haven't been committed yet
+
+^ Staged: the file has changes that will be included in your next commit
 
 ---
 
