@@ -1,6 +1,6 @@
 # Introduction to Git
 
-^ Git is an example of what is known as a source control system, or version control system. This is going to be a very brief tour of what a source control system and the problems that it solves. With some history of how we've arrived at git along the way.
+^ Git is an example of what is known as a source control system, or version control system. This is going to be a brief tour of what a source control system and the problems that it solves. With some history of how we've arrived at git along the way.
 
 ^ After that we'll be diving straight into a practical session.
 
@@ -12,7 +12,7 @@
  
 ![left](images/file-copies.png)
 
-^ If you've been coding even for a little while you've probably already discovered the value of keeping track of the changes you've made to your program as you go along. For example taking a copy of your source file when you get to a point where everything is working and before you start on the next change.
+^ If you've been coding even for a little while you've probably already discovered the value of keeping backup copies of your program as you go along. For example taking a copy of your source file when you get to a point where everything is working and before you start on the next change.
 
 ^ You may also have found yourselves testing how far back the Undo command goes it your editor :)
 
@@ -31,7 +31,11 @@
 ![fit](images/track-changes.png)
 ![fit](images/wikipedia.png)
 
-^ You've probably seen this kind of functionality built into specific applications or websites that you use, for example Microsoft Word can track and highlight changes being made to a document. When anyone edits a Wikipedia page this creates a new version of the page and anyone can compare this version to previous versions in order to see what changes were made, and to revert them if needed!
+^ You've probably seen this kind of functionality built into specific applications or websites that you use
+
+^ For example Microsoft Word can track and highlight changes being made to a document.
+
+^ When anyone edits a Wikipedia page this creates a new version of the page and anyone can compare this version to previous versions in order to see what changes were made, and to undo them if needed!
 
 ^ The idea of a source control system is that it provides these features in a way that is separate, and so independent, of the programming language and text editor that you're using.
 
@@ -41,15 +45,15 @@
 
 ![left](images/collaborating.png)
 
-^ The issue we have now is if the repository is on a single computer, how can several people work together on a project? How can we can streamline the process of working with changes and fixes that have been made at the same time?
+^ The issue we have now is if the repository is on a single computer, how can several people work together on a project? How can we can streamline the process of working with changes  that have been made by different people?
 
 ---
 
 ![75%](images/centralized_workflow.png)
 
-^ The next progression in source control systems is the introduction of using a repository stored on a centralised server. This kind of source control system introduces some new features to let multiple people make a copy of a project from the server and to submit new versions back to the server which will keep track of what's changed. The version control system also provides a command for each person to update their working copy from the server, picking up the changes made by anyone else.
+^ The next progression in source control systems is the introduction of using a repository stored on a centralised server. This kind of source control system introduces some new features to let multiple people make a copy of a project from the server and to submit new versions back to the server. The version control system also provides a command for each person to update their working copy from the server, picking up the changes made by everyone else.
 
-^ This is a big improvement  and indeed is the the way that many teams and companies manage the code for software projects today. However it does have some downsides: mainly a single point of failure and also it's not possible to keep track of changes when working somewhere without access to the central server. It can also involve doing some set up of a server before it can be used.
+^ This is a big improvement  and indeed is the the way that many teams and companies manage the code for software projects today. However it does have some downsides: mainly a single point of failure and also it's not possible to commit changes when working somewhere without access to the central server. It also adds some overhead when first starting a project as it might need some set up on the server before a new project an be added.
 
 ---
 
