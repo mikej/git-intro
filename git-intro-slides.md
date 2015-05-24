@@ -89,7 +89,11 @@
 
 # Branching
 
-![inline](images/advance-master.png)
+![inline](images/basic-branching-6.png)
+
+^ I just want to touch briefly on branching. So far the examples of history have all been a series of changes in a straight line, but it's possible to start from a common point and make several sets of changes that are kept separate from each other and then combined later. When you make a place to make a change you want to keep separate this is called a "branch" in your repository.  Every git repository starts of with a main branch called "master". Here's an example of where branching is useful:
+
+^ So the commits on this project were proceeding along C0, C1, C2 and then there was a bug that needed fixing "issue 53" so we creating a branch "iss53" to fix fix that. a commit was made as the first part of the fix "C3", then some more work was done on the main branch "C4" and another change was made on the branch "C5". So now we have some changes that only exist the master branch copy and some changes that only exist in the iss53 branch.
 
 ---
 
