@@ -59,13 +59,15 @@
 
 ![fit](images/distributed.png)
 
-^ This leads us to distributed version control which is the approach used by git. Here each computer has its own full copy of the repository including all of the history.
+^ This leads us to distributed version control which is the approach used by git. Here each computer has its own full copy of the repository including all of the historical versions of files.
 
-^ There are several other version control systems that also more this way (such as Mercurial and Bazaar) but we're going to switch to speaking in terms of git now.
+^ There are several other version control systems that also more this way (such as Mercurial and Bazaar) but I'm going to switch to speaking more specifically in terms of git now.
 
-^ The distributed VCS provides a way to synchronise changes between copies of the repository.
+^ A new git repository can be created with a single command on any computer with git installed. Git then provides a way for other people to make a copy of a repository (called cloning). 
 
+^ When you commit some changes this will only affect your own copy of the repository and so can be done without any access to the Internet. When you're ready to share changes Git then provides a mechanism to transfer your commits to another copy of the repository (called pushing) and to receive a copy of changes from another copy of the repository (called pulling)
 
+^ Whilst it's possible for people working together on a project and push and pull directly between their own laptops, in practice it's easier to use a copy of the repository held on a server as an intermediary. This is what GitHub is for.
 
 ---
 
