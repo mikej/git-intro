@@ -55,7 +55,7 @@
 
 ![75%](images/centralized_workflow.png)
 
-^ The next progression in source control systems is the introduction of using a repository stored on a centralised server. This kind of source control system introduces some new features to let multiple people make a copy of a project from the server and to submit new versions back to the server. The version control system also provides a command for each person to update their working copy from the server, picking up the changes made by everyone else.
+^ The next progression is the introduction of using a repository stored on a centralised server. This kind of source control system introduces some new features to let multiple people make a copy of a project from the server and to submit new versions back to the server. The version control system also provides a command for each person to update their working copy from the server, picking up the changes made by everyone else.
 
 ^ This is a big improvement  and indeed is the the way that many teams and companies manage the code for software projects today. However it does have some downsides: mainly a single point of failure and also it's not possible to commit changes when working somewhere without access to the central server. It also adds some overhead when first starting a project as it might need some set up on the server before a new project an be added.
 
@@ -95,7 +95,7 @@
 
 ![inline](images/basic-branching-6.png)
 
-^ I just want to touch briefly on branching. So far the examples of history have all been a series of changes in a straight line, but it's possible to start from a common point and make several sets of changes that are kept separate from each other and then combined later. When you make a place to make a change you want to keep separate this is called a "branch" in your repository.  Every git repository starts of with a main branch called "master". Here's an example of where branching is useful:
+^ Finally, I just want to touch briefly on branching. So far the examples of history have all been a series of changes in a straight line, but it's possible to start from a common point and make several sets of changes that are kept separate from each other and then combined later. When you make a place to make a change you want to keep separate this is called a "branch" in your repository.  Every git repository starts of with a main branch called "master". Here's an example of where branching is useful:
 
 ^ So the commits on this project were proceeding along C0, C1, C2 and then there was a bug that needed fixing "issue 53" so we creating a branch "iss53" to fix fix that. a commit was made as the first part of the fix "C3", then some more work was done on the main branch "C4" and another change was made on the branch "C5". So now we have some changes that only exist the master branch copy and some changes that only exist in the iss53 branch.
 
