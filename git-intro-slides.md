@@ -1,6 +1,6 @@
 # Introduction to Git
 
-^ Git is an example of what is known as a source control system, or version control system. This is going to be a brief tour of what a source control system is and the problems that it solves. With some history of how we've arrived at git along the way.
+^ Git is a source control system, or version control system. This is going to be a brief tour of what a source control system is and the problems that it solves. With some history of how we've arrived at git along the way.
 
 ^ After that we'll be diving straight into a hands on session.
 
@@ -41,7 +41,7 @@
 
 ^ When anyone edits a Wikipedia page this creates a new version of the page and anyone can compare this version to previous versions in order to see what changes were made, and to undo them if needed!
 
-^ The idea of a source control system is that it provides these features in a way that is separate, and so independent, of the programming language and text editor that you're using.
+^ The idea of a source control system is that it provides these features as a separate tool, and so it's not tied to any particular programming language or text editor that you're using.
 
 ---
 
