@@ -1,6 +1,6 @@
 # Introduction to Git
 
-^ Git is an example of what is known as a source control system, or version control system. This is going to be a brief tour of what a source control system and the problems that it solves. With some history of how we've arrived at git along the way.
+^ Git is an example of what is known as a source control system, or version control system. This is going to be a brief tour of what a source control system is and the problems that it solves. With some history of how we've arrived at git along the way.
 
 ^ After that we'll be diving straight into a hands on session.
 
@@ -9,7 +9,7 @@
 ---
 
 # Keeping track of changes
- 
+
 ![left](images/file-copies.png)
 
 ^ If you've been coding even for a little while you've probably already discovered the value of keeping backup copies of your program as you go along. For example taking a copy of your source file when you get to a point where everything is working and before you start on the next change.
@@ -67,7 +67,7 @@
 
 ^ There are several other version control systems that also more this way (such as Mercurial and Bazaar) but I'm going to switch to speaking more specifically in terms of git now.
 
-^ A new git repository can be created with a single command on any computer with git installed. Git then provides a way for other people to make a copy of a repository (called cloning). 
+^ A new git repository can be created with a single command on any computer with git installed. Git then provides a way for other people to make a copy of a repository (called cloning).
 
 ^ When you commit some changes this will only affect your own copy of the repository and so can be done without any access to the Internet. When you're ready to share changes Git then provides a mechanism to transfer your commits to another copy of the repository (called pushing) and to receive a copy of changes from another copy of the repository (called pulling)
 
