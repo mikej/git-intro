@@ -101,7 +101,7 @@
 
 ---
 #Thanks
-All diagrams taken from the **Pro Git** book written by Scott Chacon and Ben Straub  published under the [Creative Commons Attribution Non Commercial Share Alike 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+All diagrams used are from the **Pro Git** book written by Scott Chacon and Ben Straub  published under the [Creative Commons Attribution Non Commercial Share Alike 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 Available at: [git-scm.com/book](https://git-scm.com/book/en/v2)
 
 Questions and feedback?
@@ -110,3 +110,7 @@ Questions and feedback?
 
 
 Slides available at: [github.com/CodeUpMCR/git-intro](https://github.com/CodeUpMCR/git-intro)
+
+^ all the diagrams here are from a book called "Pro Git". You can buy it like a regular print book but it's also available to view online or download as an ebook for free. It's pretty good and definitely worth checking out.
+
+^ If you've got any questions or feedback we'd love to hear it, especially if there's anything we've covered that was confusing or needed more detail. You can contact me or Dan who's going to run the hands on session.
