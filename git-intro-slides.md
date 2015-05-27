@@ -100,12 +100,13 @@
 ^ So the commits on this project were proceeding along C0, C1, C2 and then there was a bug that needed fixing "issue 53" so we creating a branch "iss53" to fix fix that. a commit was made as the first part of the fix "C3", then some more work was done on the main branch "C4" and another change was made on the branch "C5". So now we have some changes that only exist the master branch copy and some changes that only exist in the iss53 branch.
 
 ---
-
-# Credits
-
+#Thanks
 All diagrams taken from the **Pro Git** book written by Scott Chacon and Ben Straub  published under the [Creative Commons Attribution Non Commercial Share Alike 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 Available at: [git-scm.com/book](https://git-scm.com/book/en/v2)
 
--
+Questions and feedback?
+**Michael** @michaelj ∙ mike@josephson.org
+**Dan** @furzeface ∙ daniel@furzeface.com
+
 
 Slides available at: [github.com/CodeUpMCR/git-intro](https://github.com/CodeUpMCR/git-intro)
