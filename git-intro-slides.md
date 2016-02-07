@@ -65,7 +65,7 @@
 
 ^ This leads us to distributed version control which is the approach used by git. Here each computer has its own full copy of the repository including all of the historical versions of files.
 
-^ There are several other version control systems that also more this way (such as Mercurial and Bazaar) but I'm going to switch to speaking more specifically in terms of git now.
+^ There are several other version control systems that also work this way (such as Mercurial and Bazaar) but I'm going to switch to speaking more specifically in terms of git now.
 
 ^ A new git repository can be created with a single command on any computer with git installed. Git then provides a way for other people to make a copy of a repository (called cloning).
 
