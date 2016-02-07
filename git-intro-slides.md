@@ -74,32 +74,6 @@
 ^ Whilst it's possible for people working together on a project and push and pull directly between their own laptops, in practice it's easier to use a copy of the repository held on a server as an intermediary. This is what GitHub is for.
 
 ---
-
-![fit](images/lifecycle.png)
-
-^ Just before we wrap up the slides and make a start on the hands on session I just want to cover a couple more things about git that will help the hands on session make more sense.
-
-^ The first is the different statuses that a file can have for a project that's in git:
-
-^ Untracked: a new file that hasn't been added to git - git doesn't know anything about this file yet
-
-^ Unmodified: the file matches the most recent commit
-
-^ Modified: the file has changes that haven't been committed yet
-
-^ Staged: the file has changes that will be included in your next commit
-
----
-
-# Branching
-
-![inline](images/basic-branching-6.png)
-
-^ Finally, I just want to touch briefly on branching. So far the examples of history have all been a series of changes in a straight line, but it's possible to start from a common point and make several sets of changes that are kept separate from each other and then combined later. When you make a place to make a change you want to keep separate this is called a "branch" in your repository.  Every git repository starts of with a main branch called "master". Here's an example of where branching is useful:
-
-^ So the commits on this project were proceeding along C0, C1, C2 and then there was a bug that needed fixing "issue 53" so we creating a branch "iss53" to fix fix that. a commit was made as the first part of the fix "C3", then some more work was done on the main branch "C4" and another change was made on the branch "C5". So now we have some changes that only exist the master branch copy and some changes that only exist in the iss53 branch.
-
----
 #Thanks
 All diagrams used are from the **Pro Git** book written by Scott Chacon and Ben Straub  published under the [Creative Commons Attribution Non Commercial Share Alike 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 Available at: [git-scm.com/book](https://git-scm.com/book/en/v2)
